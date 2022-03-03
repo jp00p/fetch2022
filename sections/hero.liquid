@@ -31,8 +31,15 @@
       
         //make sure to serialize your JSON body
         body: JSON.stringify({
-          id: 7611365687555,
-          quantity: 1
+            items: [
+                {
+                  quantity: 1,
+                  id: 7611365687555,
+                  properties: {
+                    'Dog\'s weight': '1'
+                  }
+                }
+              ]
         })
       })
       .then( (response) => { 
