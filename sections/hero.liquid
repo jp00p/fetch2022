@@ -1,7 +1,7 @@
 <div class="hero main-hero">
     <div class="wrapper">
-        <div class="image">
-            <img src="images/hero.png">
+        <div class="image" style="background-image:url({{ section.settings.image }});">
+            <img src="{{ section.settings.image }}">
         </div>
         <div class="content">
             <div class="text">
@@ -26,6 +26,11 @@
             "type" : "text",
             "id" : "hero_text",
             "label" : "Hero text"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
         }
     ]
 }
