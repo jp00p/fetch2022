@@ -17,6 +17,12 @@
     </div>
 </div>
 
+<script>
+    fetch('https://fetch-calc-gye8v.ondigitalocean.app/?t=1')
+    .then(response => response.json())
+    .then(data => console.log(data));
+</script>
+
 {% schema %}
 {
     "name" : "Hero Banner",
