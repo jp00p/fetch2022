@@ -1,10 +1,20 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "1646294935971187ba": {
+      "type": "hero",
+      "settings": {
+        "hero_text": "test",
+        "image": "shopify:\/\/shop_images\/logo.png"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1646294935971187ba"
   ]
 }
