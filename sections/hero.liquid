@@ -21,7 +21,9 @@
     //fetch('https://fetch-calc-gye8v.ondigitalocean.app/?t=1')
     //.then(response => response.json())
     //.then(data => console.log(data));
-
+    jQuery.getJSON('/products/test-loaf.js', function(product) {
+        alert('The title of this product is ' + product.title);
+    } );
     fetch("/cart/add.js", {
         method: "post",
         headers: {
@@ -35,6 +37,9 @@
                 {
                   quantity: 1,
                   id: 7611365687555,
+                  properties: {
+                    'Dog\'s Weight': 1
+                  }
                 }
               ]
         })
