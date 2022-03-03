@@ -27,7 +27,8 @@
 
     fetch('/products/test-loaf.js')
     .then( (response) => {
-        console.log("FETCH PRODUCT", response.variants)
+        data = JSON.parse(response)
+        console.log("PRODUCT", data)
     });
 
     fetch("/cart/add.js", {
