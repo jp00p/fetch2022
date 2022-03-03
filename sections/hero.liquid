@@ -26,10 +26,8 @@
 
 
     fetch('/products/test-loaf.js')
-    .then( (response) => {
-        data = JSON.parse(response)
-        console.log("PRODUCT", data)
-    });
+    .then(response => response.json())
+    .then(data => console.log("PRODUCT DATA", data));
 
     fetch("/cart/add.js", {
         method: "post",
