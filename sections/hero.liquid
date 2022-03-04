@@ -1,20 +1,27 @@
 <div class="hero main-hero {{ section.settings.image_side }}">
     <div class="wrapper">
+        {% if section.settings.image_side == "bg-left" %}
         <div class="image" style="background-image:url({{ section.settings.image }});">
             <img src="{{ section.settings.image.src | image_url  }}" alt="{{ section.settings.image.alt }}">
         </div>
+        {% endif %}
         <div class="content">
             <div class="text">
-                <h2 class="wow animate__backInRight">
+                <h2 class="wow animate__flipInX">
                     {{ section.settings.hero_header_text }}
                 <!--Feed <span class="green">your dog</span><br>
                     like family-->
                 </h2>
                 <!-- <p>Excitement, Joy, Love. That’s what makes Fetch’s fresh, chef-baked dog food a must-have in your pup’s bowl, giving them a longer, healthier life in every bite.</p> -->
-                <p> {{ section.settings.hero_intro_text }}
-                <p><a href="#" class="button">shop now</a></p>
+                <p class="wow animate__fadeIn" data-wow-delay="0.3s">{{ section.settings.hero_intro_text }} </p>
+                <p class="wow animate__fadeInUp" data-wow-delay="1s"><a href="#" class="button">shop now</a></p>
             </div>
         </div>
+        {% if section.settings.image_side == "bg-right" %}
+            <div class="image" style="background-image:url({{ section.settings.image }});">
+                <img src="{{ section.settings.image.src | image_url  }}" alt="{{ section.settings.image.alt }}">
+            </div>
+        {% endif %}
     </div>
 </div>
 
