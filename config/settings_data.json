@@ -2,20 +2,7 @@
   "current": {
     "sections": {
       "announcement-bar": {
-        "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "color_scheme": "background-1"
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
-        "settings": {
-        }
+        "type": "announcement-bar"
       },
       "header": {
         "type": "header",
@@ -23,7 +10,7 @@
         }
       },
       "footer": {
-        "type": "footer",
+        "type": "footer"
       },
       "main-password-header": {
         "type": "main-password-header",
@@ -41,7 +28,7 @@
     "Default": {
       "sections": {
         "announcement-bar": {
-          "type": "announcement-bar",
+          "type": "announcement-bar"
         },
         "header": {
           "type": "header",
