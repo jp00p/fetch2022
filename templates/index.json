@@ -3,8 +3,9 @@
     "164637279235af5872": {
       "type": "hero",
       "settings": {
-        "hero_header_text": "",
-        "hero_intro_text": "",
+        "hero_header_text": "Feed <span class=\"green\">your dog<\/span><br>like family",
+        "hero_intro_text": "Excitement, Joy, Love. That’s what makes Fetch’s fresh, chef-baked dog food a must-have in your pup’s bowl, giving them a longer, healthier life in every bite.",
+        "image": "shopify:\/\/shop_images\/hero.png",
         "image_side": "bg-left"
       }
     }
