@@ -10,7 +10,9 @@
         }
       },
       "footer": {
-        "type": "footer"
+        "type": "footer",
+        "settings": {
+        }
       },
       "main-password-header": {
         "type": "main-password-header",
@@ -33,11 +35,12 @@
         "header": {
           "type": "header",
           "settings": {
-            "logo_width": 90
-          }
+          } 
         },
         "footer": {
-          "type": "footer"
+          "type": "footer",
+          "settings": {
+          }
         },
         "main-password-header": {
           "type": "main-password-header",
