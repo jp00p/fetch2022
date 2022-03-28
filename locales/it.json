@@ -104,7 +104,7 @@
     "product": {
       "add_to_cart": "Aggiungi al carrello",
       "description": "Descrizione",
-      "on_sale": "Vendita",
+      "on_sale": "In offerta",
       "product_variants": "Varianti di prodotto",
       "quantity": {
         "label": "Quantità",
@@ -115,7 +115,7 @@
       "price": {
         "from_price_html": "Da {{ price }}",
         "regular_price": "Prezzo di listino",
-        "sale_price": "Prezzo di vendita",
+        "sale_price": "Prezzo scontato",
         "unit_price": "Prezzo unitario"
       },
       "share": "Condividi questo prodotto",
@@ -260,7 +260,8 @@
     },
     "featured_collection": {
       "view_all": "Visualizza tutto",
-      "view_all_label": "Visualizza tutti i prodotti della collezione {{ collection_name }}"
+      "view_all_label": "Visualizza tutti i prodotti della collezione {{ collection_name }}",
+      "slider": "Cursore"
     },
     "collection_list": {
       "view_all": "Visualizza tutto"
